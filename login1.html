@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <div class="form">
+        
+            <h1>PATIENT LOGIN PORTAL</h1>
+            <div class="input-control">
+                <label for="username">Username</label>
+                <input id="username" name="username" type="text">
+                
+            
+            
+                <label for="password">Password</label>
+                <input id="pass"name="password" type="password">
+                <input type="checkbox" onclick="myfunction()">
+        <input type="submit" value="login" onclick="validate()"></a>
+        <div class="col-md-6">
+            <p style="color: black;">Need an account?</p>
+           <a href="registration.html"><span class="text-danger">Register</span></a>
+        </div>
+       <div>
+        <p id="length"></p>
+       </div>
+      
+    </div>
+</body>
+</html>

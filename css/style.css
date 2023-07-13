@@ -1,0 +1,176 @@
+body
+{
+background-color: aliceblue;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.heading{
+
+    
+    color:chocolate;
+}
+.screen
+{
+    margin:0; padding:0;
+    box-sizing:border-box;
+}
+:root{
+    --color:red;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#2ed573;
+};
+    padding:10px;
+}
+header .navbar
+{
+    transition: 3s linear;
+}
+header .image{
+    display: flex;
+    align-items: center;
+}
+header .image > img
+{
+    height: 100px;
+    width: 150px;
+    margin: 0 10px;
+}
+ header .navbar ul
+{
+    
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    width: 600px;
+    justify-content: space-around;
+}
+
+
+header .navbar ul li a{
+    display: block;
+    padding: 30zpx 14px;
+    font-size: 14px;
+    color:chocolate;
+    text-decoration-line: none;
+}
+
+
+.navbar ul li a:hover{
+     color: var(--color);
+     cursor: pointer;
+}
+
+
+  
+
+input{
+    display: none;
+}
+label
+{
+    z-index: 2;
+    position: absolute;
+    top: 30px;
+    right:10px;
+    cursor: pointer;
+    display: none;
+}
+label span{
+    display: block;
+    height: 3px;
+    width: 30px;
+    background: var(--color);
+    margin: 5px 0;
+    transition:.3s;
+
+}
+label span:nth-child(1)
+{
+    margin-left: 20px;
+}
+label span:nth-child(2)
+{
+    width: 50px;
+}
+#toggle:checked ~ label  > span:nth-child(1)
+{
+    background:black;
+    transform: rotateZ(45deg);
+    width:30px;
+    margin-top: 10px;
+}
+#toggle:checked ~ label > span:nth-child(2)
+{
+    background: black;
+    transform: rotateZ(-45deg);
+    width:30px;
+    margin-top: -8px;
+    margin-left: 19px;
+}
+#toggle:checked ~ header .navbar{
+    left: 0;
+}
+.container
+{
+    margin: 100px auto ;
+    text-align:center;
+   color:darkslategray;
+}
+.content
+{
+    margin: 100px auto;
+    font-size: larger;
+}
+
+
+@media (max-width:978px)
+{
+    label
+    {
+        display: block;
+    }
+   header .navbar{
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+        top:0; left:100%;
+        background: var(--color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    header .navbar ul{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-flow: column wrap;
+    }
+    header .navbar ul li a{
+        margin: 10px 0;
+        font-size: 40px;
+        color: antiquewhite;
+
+    }
+header .navbar ul li a:hover
+{
+     background: blanchedalmond;
+     border-radius: 50px;
+     padding: 0 50px;
+     transition: .3s;
+}
+}
+    
+

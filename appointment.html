@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hospital Appointment Booking Form</title>
+	<link rel="stylesheet" type="text/css" href="appointment.css">
+</head>
+<body>
+	<div class="container">
+		<form id="appointment-form" method="post" action="">
+			<h1>Hospital Appointment Booking Form</h1>
+			<label for="name">Full Name</label>
+			<input type="text" id="name" name="name" placeholder="Enter your full name" required>
+			<label for="email">Email Address</label>
+			<input type="email" id="email" name="email" placeholder="Enter your email address" required>
+			<label for="phone">Phone Number</label>
+			<input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+			<label for="date">Preferred Date</label>
+			<input type="date" id="date" name="date" required>
+			<label for="time">Preferred Time</label>
+			<input type="time" id="time" name="time" required>
+			<label for="department">Department</label>
+			<select id="department" name="department" required>
+				<option value="">Select department</option>
+				<option value="cardiology">Cardiology</option>
+				<option value="Neurology">Neurology</option>
+				<option value="Opthamology">Opthamology</option>
+				<option value="Orthopaedics">Orthopaedics</option>
+				<option value="Dentistry">Dentistry</option>
+				<option value="Paediatrics">Paediatrics</option>
+			</select>
+			<label for="doctor">Doctor</label>
+			<select id="doctor" name="doctor" required>
+				<option value="">Select doctor</option>
+				<option value="Dr. PACHIYAPPAN
+				MBBS., MD., DM (Cardio)">Dr. PACHIYAPPAN
+				MBBS., MD., DM (Cardio)</option>
+				<option value="Dr. SIVASUBRAMANIYAN
+				MBBS., MD., DM(Cardio, Newdelhi)">Dr. SIVASUBRAMANIYAN
+				MBBS., MD., DM(Cardio, Newdelhi)</option>
+				<option value="Dr. VINAY KUMAR SAJJA
+                MBBS., MD., DM(Cardio).,">Dr. VINAY KUMAR SAJJA
+                MBBS., MD., DM(Cardio).,</option>
+				<option value="Dr. Anusha D
+				MBBS, DM (Neuro), DNB (Neuro)">Dr. Anusha D
+				MBBS, DM (Neuro), DNB (Neuro)</option>
+				<option value="Dr. Dhanaraj M
+				MD (Gen. Med.), DM (Neuro), MNAMS (Gen. Med.), MNAMS (Neuro.))">Dr. Dhanaraj M
+				MD (Gen. Med.), DM (Neuro), MNAMS (Gen. Med.), MNAMS (Neuro.)</option>
+				<option value="Dr Ashok Rangarajan
+				MBBS, MS - Ophthalmology, DNB - Ophthalmology, FRCS - General Surgery">Dr Ashok Rangarajan
+				MBBS, MS - Ophthalmology, DNB - Ophthalmology, FRCS - General Surgery</option>
+				<option value="Dr Chockalingam Muthuraman
+				MBBS DO DNB (Opthal) FRCS PGDMHM">Dr Chockalingam Muthuraman
+				MBBS DO DNB (Opthal) FRCS PGDMHM</option>
+				<option value="Dr. David Rajan
+				Diploma in Orthopaedics, MBBS 
+				Orthopedist">Dr. David Rajan
+				Diploma in Orthopaedics, MBBS 
+				Orthopedist</option>
+				<option value="Dr. Mayil Vahanan Natarajan
+				FRCS, FAMS, Diploma, D.Sc - (Onco.Surg), Ph.D. (Orth. Onco), M.Ch. (Trauma), MS, D.Ortho, MBBS  Orthopedist">Dr. Mayil Vahanan Natarajan
+				FRCS, FAMS, Diploma, D.Sc - (Onco.Surg), Ph.D. (Orth. Onco), M.Ch. (Trauma), MS, D.Ortho, MBBS  Orthopedist</option>
+				<option value="Dr. Sharadha Srinivas
+				MBBS, MRCP (UK)">Dr. Sharadha Srinivas
+				MBBS, MRCP (UK)</option>
+				<option value="Dr. Raghunath Reddy
+                MBBS, DNB ( Paediatrics">Dr. Raghunath Reddy
+                MBBS, DNB ( Paediatrics</option>
+			</select>
+			<label for="message">Message</label>
+			<textarea id="message" name="message" placeholder="Enter your message"></textarea>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	<script src="appointment.js"></script>
+</body>
+</html>

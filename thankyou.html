@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thankyou.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="container">   
+    <form action="reg.html">
+        <h1 class="label"> Login </h1>
+  
+    <div class="form-group">
+    <label>Username</label>
+    <input type="text" placeholder="username" id="contact-name" onkeyup="validateName()">
+    <span id="name-error"></span>
+</div>
+    <div class="form-group">
+    <label>Password</label>
+    <input type="password" placeholder="password" id="contact-pass" onkeyup="validatePass()">
+    <span id="pass-error"></span>
+</div>
+
+    <div class="form-group">
+    <label>Email</label>
+    <input type="email" placeholder="email" id="contact-email" onkeyup="validateEmail()">
+    <span id="email-error"></span>
+    </div>
+    <div class="btn">
+    <button onclick="return validateForm()">Submit</button> 
+    <span id="submit-error"></span>
+
+    </div>
+
+    </form>
+    </div>
+    <script src="thanku.js"></script>
+</body>
+</html>

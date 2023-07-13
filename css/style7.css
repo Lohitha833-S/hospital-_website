@@ -1,0 +1,65 @@
+body{
+    background-color:floralwhite
+    
+   
+}
+.heading img{
+    float:right;
+
+}
+.heading h3{
+    text-align: center;
+    color:darksalmon;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.slogan{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 100;
+    color:cornflowerblue;
+    font-size: 25px;
+}
+ .subheading p{
+    font-size:25px;
+    color:brown;
+}
+.subheading h2{
+    color: darksalmon;
+    text-align: center;
+}
+.subimg{
+    text-align: center;
+}
+.subimg h4{
+    color: crimson;
+}
+.subimg2 h4
+{
+    color: crimson;
+}
+.subimg2 h2{
+    color: darksalmon;
+}
+.subimg2 li{
+    list-style: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: brown;
+
+}
+.book
+{
+    cursor: pointer;
+    text-decoration:none;
+    background-color:darksalmon;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.book:hover{
+    background:darkred;
+    color:white;
+
+}

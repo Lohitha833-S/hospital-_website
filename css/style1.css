@@ -1,0 +1,113 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+section{
+    position: relative;
+    height: 100vh;
+    width:100%;
+    background:url("../images/doctor-stethoscope-hand-hospital-background-gown-94227568.jpg");
+    background-size:cover;
+    background-position:center center;
+}
+.form-container
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background: blanchedalmond;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width:380px;
+    padding:50px 30px;
+    border-radius:10px;
+    box-shadow: 7px 7px 60px #000;
+    
+}
+h3{
+    text-transform: uppercase;
+    font-size: 0.8cm;
+    text-align: center;
+    margin-bottom: :2cm;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding:10px;
+    color:#222;
+    border: none;
+    outline:none;
+    margin:1cm 0;
+}
+.control input:focus{
+    outline:none;
+    border-color: black;
+}
+
+.control input[type="submit"]{
+    background:#2ed573;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.5cm;
+    opacity: .8;
+    transition:opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a:hover{
+    opacity: 1;
+}
+
+
+
+.book 
+{
+    cursor: pointer;
+    text-decoration: none;
+    background-color:dodgerblue;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+.lo {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+ .register, .forgot
+{
+   margin-bottom: 20px;
+    text-decoration: none;
+
+    
+}
+
+.register{
+    
+    
+    color:#222;
+}
+.register:hover{
+    cursor: pointer;
+    color: red;
+}
+.forgot{
+    text-align: center;
+    color:#222;
+}
